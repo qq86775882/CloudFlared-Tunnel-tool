@@ -70,7 +70,7 @@ C:\ProgramData\cloudflared\cloudflared.log
 
 ## 故障排除
 
-1. **下载失败**：检查网络连接或手动下载 cloudflared 可执行文件
+1. **下载失败**：检查网络连接或手动下载 cloudflared 可执行文件，或到https://gitee.com/xiaochaoge2009/main/releases/tag/cloudflared下载、https://github.com/cloudflare/cloudflared/releases也可以下载到最新版
 2. **服务创建失败**：确保以管理员身份运行脚本
 3. **未检测到访问域名**：查看日志文件，服务可能需要更多时间建立连接
 
