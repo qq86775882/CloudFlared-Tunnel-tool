@@ -15,7 +15,7 @@
 - 详细的错误处理和状态报告
 ## 好玩的
 
-配合netlify，可以永久性指向。大致思路：先在github上新建个项目，放一个txt文件（名字随意）和一个index.html，使用github的api接口，在服务启动获取到公网ip后，更新txt文件。 在netlify上托管这个项目，获得一个公网地址；然后index.html文件中随便写点代码，大致内容为打开时访问netlify上的公网地址+txt文件名，获取到baseurl，然后在当前页打开这个url   netlify官网为：https://app.netlify.com/，详细可以查看我的另一个项目：https://github.com/qq86775882/ceshi
+配合netlify，可以永久性指向。大致思路：先在github上新建个项目，放一个txt文件（名字随意）和一个index.html，使用github的api接口，在服务启动获取到公网ip后，更新txt文件。 在netlify上托管这个项目，获得一个公网地址；然后index.html文件中随便写点代码，大致内容为打开时访问netlify上的公网地址+txt文件名，获取到baseurl，然后在当前页打开这个url   netlify官网为：https://app.netlify.com/，    详细可以查看我的另一个项目：         https://github.com/qq86775882/ceshi
 ## 系统要求
 
 - Windows 操作系统
