@@ -1,9 +1,9 @@
 # CloudFlared Tunnel 设置工具
 
 这是一个用 Python 编写的 CloudFlared Tunnel 设置工具，用于快速配置和管理 Cloudflare Tunnel 服务。该工具提供了简单的命令行界面，可以帮助用户下载 cloudflared 可执行文件、设置临时隧道或将其注册为系统服务。
-## 下个版本
 
-将尝试在linux系统下运行
+
+
 
 ## 功能特点
 
@@ -13,7 +13,9 @@
 - 彩色输出，提升用户体验
 - 完整的服务管理功能（创建、启动、停止、删除）
 - 详细的错误处理和状态报告
+## 好玩的
 
+配合netlify，可以永久性指向。大致思路：先在github上新建个项目，放一个txt文件（名字随意）和一个index.html，使用github的api接口，在服务启动获取到公网ip后，更新txt文件。 在netlify上托管这个项目，获得一个公网地址；然后index.html文件中随便写点代码，大致内容为打开时访问netlify上的公网地址+txt文件名，获取到baseurl，然后在当前页打开这个url   netlify官网为：https://app.netlify.com/，详细可以查看我的另一个项目：https://github.com/qq86775882/ceshi
 ## 系统要求
 
 - Windows 操作系统
