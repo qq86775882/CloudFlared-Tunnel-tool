@@ -19,7 +19,7 @@
 
 ## 安装与使用
 
-1. 下载`cloudflared.py`文件
+1. 下载cloudflared.py文件
 2. 打开命令提示符或 PowerShell
 3. 运行以下命令：
 
@@ -31,7 +31,7 @@ python cloudflared.py
 
 运行脚本后，按照以下步骤操作：
 
-1. 如果检测到已存在的 cloudflared 服务，脚本会询问是否卸载
+1.如果检测到已存在的 cloudflared 服务，脚本会询问是否卸载
 2. 选择运行模式：
    - 选项 1：临时运行（前台运行并显示 trycloudflare 域名）
    - 选项 2：后台运行（注册为系统服务）
@@ -65,12 +65,12 @@ C:\ProgramData\cloudflared\cloudflared.log
 ## 注意事项
 
 - 创建系统服务需要管理员权限
-- 如果服务创建失败，请以管理员身份运行脚本
-- 公共访问 URL 可能需要一些时间才能在日志中出现
+-如果服务创建失败，请以管理员身份运行脚本
+- 公共访问 URL 可能需要一些时间才能出现在日志中
 
 ## 故障排除
 
-1. **下载失败**：检查网络连接或手动下载 cloudflared 可执行文件，或到https://gitee.com/xiaochaoge2009/main/releases/tag/cloudflared下载、https://github.com/cloudflare/cloudflared/releases也可以下载到最新版
+1. **下载失败**：检查网络连接或手动下载 cloudflared 可执行文件，或到 https://gitee.com/xiaochaoge2009/main/releases/tag/cloudflared    下载     https://github.com/cloudflare/cloudflared/releases     也可以下载到最新版
 2. **服务创建失败**：确保以管理员身份运行脚本
 3. **未检测到访问域名**：查看日志文件，服务可能需要更多时间建立连接
 
