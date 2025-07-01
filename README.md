@@ -1,6 +1,9 @@
 # CloudFlared Tunnel 设置工具
 
 这是一个用 Python 编写的 CloudFlared Tunnel 设置工具，用于快速配置和管理 Cloudflare Tunnel 服务。该工具提供了简单的命令行界面，可以帮助用户下载 cloudflared 可执行文件、设置临时隧道或将其注册为系统服务。
+## 下个版本
+
+将尝试在linux系统下运行
 
 ## 功能特点
 
