@@ -42,7 +42,7 @@
 ```bash
 # 克隆仓库或者直接下载cloudflared.py文件
 git clone https://github.com/qq86775882/CloudFlared-Tunnel-tool.git
-```bash
+#国内下载
 git clone https://gitee.com/xiaochaoge2009/CloudFlared-Tunnel-tool.git
 
 ```
